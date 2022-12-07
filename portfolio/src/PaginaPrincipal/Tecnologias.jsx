@@ -1,12 +1,13 @@
 import React from 'react'
+import "./tecnologias.css"
 
 const Tecnologias = ({tecnologia}) => {
   return (
-<div classNameName="card" style={{width: "5rem"}}>
-    <img src={tecnologia.logo} classNameName="card-img-top" alt=''/>
-    <div classNameName="card-body">
-    <h6 classNameName="card-title">{tecnologia.tipo}</h6>
-    </div>
+<div className="card" style={{width: "8rem"}}>
+  <img className="card-img-top" src={tecnologia.logo} alt="logo" />
+  <div className="card-body">
+    <p className='small'>{tecnologia.tipo}</p>
+  </div>
 </div>
   )
 }

@@ -4,14 +4,14 @@ const rionegro = {
     institucion: "UNRN",
     carrera: "Ingenieria en Computacion",
     fecha: "2022",
-    imagen: require("./unrnlogo.jpg")
+    imagen: require(".//assets/unrnlogo.jpg")
 }
 
 const cordoba = {
     institucion: "UNC",
     carrera: "Lic. Kinesiologia y Fisioterapia",
     fecha: "2016",
-    imagen: require("./unclogo.jpeg")
+    imagen: require(".//assets/unclogo.jpeg")
 }
 
 
@@ -19,14 +19,12 @@ const oracle = {
     institucion: "OracleNEXT",
     carrera: "Desarrollador Web FullStack Java",
     fecha: "2022",
-    imagen: require("./alura_logo.png")
+    imagen: require(".//assets/alura_logo.png")
 }
-
-
 
 const Estudios = () => {
   return (
-<div  className="carousel slide" data-ride="carousel" data-interval="3000">
+<div  className="carousel slide mt-2" data-ride="carousel" data-interval="3000">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
