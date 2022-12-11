@@ -1,0 +1,46 @@
+h5
+{
+    color: black;
+}
+
+p
+{
+    color: black;
+}
+
+/*.carousel-item img {
+    height: 12rem !important;
+    width: 10rem !important;
+}
+*/
+.carousel-caption {
+    max-width: 20%;
+    width:20%;
+    background: rgba(255, 184, 28, 0.5);
+    left: 40%;
+    right: auto;
+    bottom: 20%;
+    color:#000000;
+    }
+
+
+.carousel .carousel-item {
+  height: 90vh;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    max-height: 90vh;
+}
+
+.carousel-indicators li {
+    background-color: #999 !important;
+    background-color: rgba(70,70,70,.25) !important;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #444 !important;
+  }

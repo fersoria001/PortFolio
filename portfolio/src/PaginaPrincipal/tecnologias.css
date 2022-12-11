@@ -1,5 +1,22 @@
-.card-img-top {
-    width: 100%;
-    height: 8vw;
-    object-fit: cover;
+
+
+You can do that using pseudo elements
+
+.imagen{
+    width:100px;
+    display:block;
+    height:20px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    padding-left:20px;
+}
+.imagen:before{
+    content: '';
+    background:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSj3XfIpf-OOJRCcWz4iN2CU3qMKVVbj0p0bRvKNGVo1U9pk_8ZIlyR8pWreA');
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-20px;
 }

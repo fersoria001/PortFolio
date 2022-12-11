@@ -1,4 +1,4 @@
-import "./estudios.css"
+import React from 'react'
 
 const rionegro = {
     institucion: "UNRN",
@@ -24,50 +24,27 @@ const oracle = {
 
 const Estudios = () => {
   return (
-<div  className="carousel slide mt-2" data-ride="carousel" data-interval="3000">
-  <ol className="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img className="d-block w-100" src={rionegro.imagen} alt="First slide" />
-      <div className="carousel-caption d-none d-md-block">
-        <h5>{rionegro.institucion}</h5>
-        <p>
-            {rionegro.carrera}
-            <br></br>
-            {rionegro.fecha}
-        </p>
-     </div>
+    <div className='row justify-content-center mt-4'>
+        <div className='col-md-2'>
+            <div className="card" style={{width: "40px", height: "50px"}}>
+                <img className="card-img-top" src={rionegro.imagen} alt="logo" style={{width: "40px", height: "50px"}} />
+                 </div>
+                 <div className="card-body">
+                    <h5 className='card-title'>{rionegro.institucion}</h5>
+                    <p className='card-text'>{rionegro.carrera}</p>
+            </div>
+        </div>
+        <div className='col-md-2'>
+            <div className="card" style={{width: "40px", height: "50px"}} >
+                <img className="card-img-top" src={cordoba.imagen} alt="logo" style={{width: "40px", height: "50px"}} />
+                 </div>
+                 <div className="card-body">
+                    <h5 className='card-title'>{cordoba.institucion}</h5>
+                    <p className='card-text'>{cordoba.carrera}</p>
+            </div>
+        </div>
     </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src={cordoba.imagen} alt="Second slide" />
-      <div className="carousel-caption d-none d-md-block">
-        <h5>{cordoba.institucion}</h5>
-        <p>
-            {cordoba.carrera}
-            <br></br>
-            {cordoba.fecha}
-        </p>
-     </div>
-    </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src={oracle.imagen} alt="Third slide" />
-      <div className="carousel-caption d-none d-md-block">
-        <h5>{oracle.institucion}</h5>
-        <p>
-            {oracle.carrera}
-            <br></br>
-            {oracle.fecha}
-        </p>
-     </div>
-    </div>
-  </div>
-</div>
   )
 }
 
 export default Estudios
-/* */
