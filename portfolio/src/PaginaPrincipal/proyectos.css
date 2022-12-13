@@ -16,11 +16,12 @@ p
 .carousel-caption {
     max-width: 20%;
     width:20%;
-    background: rgba(255, 184, 28, 0.5);
+    background: rgba(82, 5, 182, 0.5);
     left: 40%;
     right: auto;
     bottom: 20%;
     color:#000000;
+    border-radius: 5%;
     }
 
 

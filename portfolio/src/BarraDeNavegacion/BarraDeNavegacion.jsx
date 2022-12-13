@@ -14,21 +14,7 @@ const BarraDeNavegacion = ({icono}) => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml-auto">
         <li className="nav-item active">
-          <a className="nav-link" href="#"> Projectos </a>
-        </li>
-      <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Redes Sociales
-          </a>
-          <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a className="dropdown-item" href="#">Action</a>
-            <a className="dropdown-item" href="#">Another action</a>
-            <div className="dropdown-divider"></div>
-            <a className="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" href="#"> Contactos </a>
+          <a className="nav-link" href="https://pdfhost.io/v/ARO2cS4Y3_FernandoASoria"> Descarga mi CV </a>
         </li>
       </ul>
     </div>

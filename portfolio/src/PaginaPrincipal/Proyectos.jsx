@@ -5,13 +5,17 @@ import "./proyectos.css"
 const proyecto_uno = {
   titulo: "Proyecto Ahorcado",
   imagen: require("./assets/ahorcado.jpg"),
-  descripcion: "Juego de el Ahorcado utilizando HTML canvas con JS"
+  descripcion: "Juego de el Ahorcado utilizando HTML canvas con JS",
+  repo: "https://github.com/fersoria001/ahorcado-oracle",
+  demo: "https://fersoria001.github.io/ahorcado-oracle/"
 }
 
 const proyecto_dos = {
   titulo: "Proyecto desencriptador",
   imagen: require("./assets/encriptador.jpg"),
-  descripcion: "Juego de desencriptador utilizando JS"
+  descripcion: "Juego de desencriptador utilizando JS",
+  repo: "https://github.com/fersoria001/encriptador-texto-oracle",
+  demo: "https://fersoria001.github.io/encriptador-texto-oracle/"
 }
 
 const proyecto_tres = {
@@ -35,8 +39,8 @@ const Proyectos = () => {
       <div className="carousel-caption d-none d-md-block">
         <h5>{proyecto_uno.titulo}</h5>
         <p>{proyecto_uno.descripcion}</p>
-        <button> click me </button>
-        <button> click me </button>
+        <a class="btn btn-primary" href={proyecto_uno.repo} role="button">Repository</a>
+        <a class="btn btn-primary" href={proyecto_uno.demo} role="button">Demo</a>
       </div>
     </div>
     <div className="carousel-item">
@@ -44,8 +48,8 @@ const Proyectos = () => {
       <div className="carousel-caption d-none d-md-block">
         <h5>{proyecto_dos.titulo}</h5>
         <p>{proyecto_dos.descripcion}</p>
-        <button> click me </button>
-        <button> click me </button>
+        <a class="btn btn-primary" href={proyecto_dos.repo} role="button">Repository</a>
+        <a class="btn btn-primary" href={proyecto_dos.demo} role="button">Demo</a>
       </div>
     </div>
     <div className="carousel-item">
@@ -53,8 +57,6 @@ const Proyectos = () => {
       <div className="carousel-caption d-none d-md-block">
         <h5>{proyecto_tres.titulo}</h5>
         <p>{proyecto_tres.descripcion}</p>
-        <button> click me </button>
-        <button> click me </button>
       </div>
     </div>
   </div>
