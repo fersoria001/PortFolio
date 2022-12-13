@@ -14,7 +14,7 @@ const BarraDeNavegacion = ({icono}) => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml-auto">
         <li className="nav-item active">
-          <a className="nav-link" href="https://pdfhost.io/v/ARO2cS4Y3_FernandoASoria"> Descarga mi CV </a>
+          <a className="nav-link" href="https://pdfhost.io/v/ARO2cS4Y3_FernandoASoria" target="_blank" rel="noopener noreferrer"> Download my CV </a>
         </li>
       </ul>
     </div>

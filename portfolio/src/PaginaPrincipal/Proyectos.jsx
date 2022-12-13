@@ -39,8 +39,8 @@ const Proyectos = () => {
       <div className="carousel-caption d-none d-md-block">
         <h5>{proyecto_uno.titulo}</h5>
         <p>{proyecto_uno.descripcion}</p>
-        <a class="btn btn-primary" href={proyecto_uno.repo} role="button">Repository</a>
-        <a class="btn btn-primary" href={proyecto_uno.demo} role="button">Demo</a>
+        <a class="btn btn-primary" href={proyecto_uno.repo} role="button" target="_blank" rel="noopener noreferrer">Repository</a>
+        <a class="btn btn-primary" href={proyecto_uno.demo} role="button" target="_blank" rel="noopener noreferrer">Demo</a>
       </div>
     </div>
     <div className="carousel-item">
@@ -48,8 +48,8 @@ const Proyectos = () => {
       <div className="carousel-caption d-none d-md-block">
         <h5>{proyecto_dos.titulo}</h5>
         <p>{proyecto_dos.descripcion}</p>
-        <a class="btn btn-primary" href={proyecto_dos.repo} role="button">Repository</a>
-        <a class="btn btn-primary" href={proyecto_dos.demo} role="button">Demo</a>
+        <a class="btn btn-primary" href={proyecto_dos.repo} role="button" target="_blank" rel="noopener noreferrer">Repository</a>
+        <a class="btn btn-primary" href={proyecto_dos.demo} role="button" target="_blank" rel="noopener noreferrer">Demo</a>
       </div>
     </div>
     <div className="carousel-item">
