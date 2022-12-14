@@ -57,6 +57,7 @@ const Proyectos = () => {
       <div className="carousel-caption d-none d-md-block">
         <h5>{proyecto_tres.titulo}</h5>
         <p>{proyecto_tres.descripcion}</p>
+        <p> coming soon..</p>
       </div>
     </div>
   </div>
