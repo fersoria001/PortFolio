@@ -2,29 +2,23 @@ import React from 'react'
 
 const Mensaje = () => {
   return (
-<form className='p-4'>
-  <div className="row justify-content-center p-2">
-    <div className="col-4">
-      <input type="text" className="form-control" placeholder="First name" />
-    </div>
-    <div className="col-4">
-      <input type="text" className="form-control" placeholder="Last name" />
-    </div>
+<form>
+  <div className="form-group mb-2">
+    <input type="text" className="form-control" id='nombre' placeholder="Name" />
   </div>
-  <div className='row justify-content-center p-2'>
-    <div className='col-4'>
-      <textarea className='form-control-lg'/>
-    </div>
-    <div className='col-4'>
-      <input type="email" className='form-control' placeholder='E-mail' />
-    </div>
-    <div className='row justify-content-center p-2'>
-    <div className='col-2'>
-        <button className='form-control'> click me pls</button>
-        </div>
-    </div>
+  <div className='form-group mb-2'>
+    <input type="text" className="form-control" id="apellido" placeholder="Surname" />
   </div>
-  </form>
+    <div className="form-group mb-2">
+    <input type="email" className="form-control" id="email" placeholder="name@example.com" />
+  </div>
+  <div className="form-group mb-2">
+    <textarea className="form-control" id="mensaje" rows="3"></textarea>
+  </div>
+  <div className="form-group mb-2">
+  <button className="btn btn-primary mt-2" type="submit">Submit</button>
+  </div>
+</form>
   )
 }
 

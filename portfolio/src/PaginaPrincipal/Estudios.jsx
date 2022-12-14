@@ -17,6 +17,8 @@ const oracle = {
 const Estudios = () => {
   return (
     <div className='container-fluid mt-4'>
+        <div className='row'>
+            <div className='col'>
             <div className="card text-center">
                 <img className="card-img-top" src={rionegro.imagen} alt="logo" style={{width: "40px", height: "50px"}} />
                  <div className="card-body">
@@ -24,6 +26,8 @@ const Estudios = () => {
                     <p className='card-text'>{rionegro.carrera}</p>
                     </div>
             </div>
+            </div>
+            <div className='col'>
             <div className="card  text-center">
                 <img className="card-img-top" src={oracle.imagen} alt="logo" style={{width: "40px", height: "50px"}} />
                  <div className="card-body">
@@ -31,6 +35,8 @@ const Estudios = () => {
                     <p className='card-text'>{oracle.carrera}</p>
                     </div>
             </div>
+            </div>
+        </div>
     </div>
   )
 }
