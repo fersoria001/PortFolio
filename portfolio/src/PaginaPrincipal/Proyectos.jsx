@@ -36,7 +36,7 @@ const Proyectos = () => {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src={proyecto_uno.imagen} className="d-block w-100" alt="..." />
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption d-block">
         <h5>{proyecto_uno.titulo}</h5>
         <p>{proyecto_uno.descripcion}</p>
         <a class="btn btn-primary" href={proyecto_uno.repo} role="button" target="_blank" rel="noopener noreferrer">Repository</a>
@@ -44,8 +44,8 @@ const Proyectos = () => {
       </div>
     </div>
     <div className="carousel-item">
-      <img src={proyecto_dos.imagen} className="d-block w-100" alt="..." />
-      <div className="carousel-caption d-none d-md-block">
+      <img src={proyecto_dos.imagen} className="w-100" alt="..." />
+      <div className="carousel-caption d-block">
         <h5>{proyecto_dos.titulo}</h5>
         <p>{proyecto_dos.descripcion}</p>
         <a class="btn btn-primary" href={proyecto_dos.repo} role="button" target="_blank" rel="noopener noreferrer">Repository</a>
@@ -54,7 +54,7 @@ const Proyectos = () => {
     </div>
     <div className="carousel-item">
       <img src={proyecto_tres.imagen} className="d-block w-100" alt="..." />
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption d-block">
         <h5>{proyecto_tres.titulo}</h5>
         <p>{proyecto_tres.descripcion}</p>
         <p> coming soon..</p>

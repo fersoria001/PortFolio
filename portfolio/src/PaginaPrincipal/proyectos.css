@@ -45,3 +45,44 @@ p
   .carousel-indicators .active {
     background-color: #444 !important;
   }
+
+  @media (max-width: 720px) { 
+    .carousel-caption {
+        max-height: 50%;
+        height: 50%;
+        max-width: 50%;
+        width:50%;
+        background: rgba(82, 5, 182, 0.5);
+        left: 25%;
+        right: auto;
+        bottom: 15%;
+        color:#000000;
+        border-radius: 5%;
+        }
+
+    .carousel .carousel-item {
+            height: 90vw;
+          }
+    .carousel-item img {
+            position: absolute;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            height: 325px;
+        }
+   }
+
+   @media (max-width: 320px) { 
+    .carousel-caption {
+        max-height: 50%;
+        height: 50%;
+        max-width: 60%;
+        width:60%;
+        background: rgba(82, 5, 182, 0.5);
+        left: 20%;
+        right: auto;
+        bottom: 25%;
+        color:#000000;
+        border-radius: 5%;
+        }
+    }

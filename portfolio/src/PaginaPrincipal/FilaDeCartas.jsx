@@ -9,7 +9,7 @@ function repartidor(arreglo)
   do
   {
     arreglo_jsx.push(
-      <div className="col-md-2">
+      <div className="col-2 sm-4">
       <Tecnologias tecnologia={arreglo[i]} />
       </div>
     )

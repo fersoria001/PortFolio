@@ -1,0 +1,15 @@
+@media (max-width: 760px)
+{
+    .col
+    {
+        margin: auto;
+    }
+}
+
+.card img{
+    margin-left: 45%;
+}
+
+.card {
+    border-color: white;
+}

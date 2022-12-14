@@ -1,4 +1,5 @@
 import React from 'react'
+import "./estudios.css"
 
 const rionegro = {
     institucion: "UNRN",
@@ -15,25 +16,21 @@ const oracle = {
 
 const Estudios = () => {
   return (
-    <div className='row justify-content-center mt-4'>
-        <div className='col-md-2'>
-            <div className="card" style={{width: "40px", height: "50px"}}>
+    <div className='container-fluid mt-4'>
+            <div className="card text-center">
                 <img className="card-img-top" src={rionegro.imagen} alt="logo" style={{width: "40px", height: "50px"}} />
-                 </div>
                  <div className="card-body">
                     <h5 className='card-title'>{rionegro.institucion}</h5>
                     <p className='card-text'>{rionegro.carrera}</p>
+                    </div>
             </div>
-        </div>
-        <div className='col-md-2'>
-            <div className="card" style={{width: "40px", height: "50px"}} >
+            <div className="card  text-center">
                 <img className="card-img-top" src={oracle.imagen} alt="logo" style={{width: "40px", height: "50px"}} />
-                 </div>
                  <div className="card-body">
                     <h5 className='card-title'>{oracle.institucion}</h5>
                     <p className='card-text'>{oracle.carrera}</p>
+                    </div>
             </div>
-        </div>
     </div>
   )
 }

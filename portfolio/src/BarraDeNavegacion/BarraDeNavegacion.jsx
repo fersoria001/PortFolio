@@ -3,7 +3,7 @@ import "./barra_de_navegacion.css"
 
 const BarraDeNavegacion = ({icono}) => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
     <span class="navbar-brand mb-0 h1"> 
     <img src={icono} width="30" height="30" className="d-inline-block align-top" alt="">
     </img> Fernando Soria
