@@ -9,20 +9,22 @@ import Footer from './Footer/Footer';
 function App() {
   return (
   <div>
-          <BarraDeNavegacion icono={require("./BarraDeNavegacion/icon_firma.png")} />
+          <section id="home">
+          <BarraDeNavegacion />
+          </section>
+          <section id="proyectos">
           <Proyectos />
-          <div className='container'>
-            <div className='row justify-content-center'>
-              <div className='col-4 sm-8'><h2> My TechStack </h2></div>
-            </div>
+          </section>
+          <section id="about">
+          <h2 className='text-center'> My TechStack</h2>
           <FilaDeCartas techs={techs}/> {/*ya viene con un row --1*/}
           <FilaDeCartas techs={techs_uno}/> {/*ya viene con un row --2*/}
           <Estudios />  {/*ya viene con un row */}
-          </div>
+          </section>
+          <section id="footer">
           <Footer />
-
+          </section>
       </div>
-
     );
 }
 

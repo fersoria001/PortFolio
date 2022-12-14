@@ -1,25 +1,52 @@
-import React from 'react'
-import "./barra_de_navegacion.css"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-const BarraDeNavegacion = ({icono}) => {
+
+const estilo = 
+{height: "16px", width: "16px"}
+
+
+function BarraDeNavegacion() {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-    <span class="navbar-brand mb-0 h1"> 
-    <img src={icono} width="30" height="30" className="d-inline-block align-top" alt="">
-    </img> Fernando Soria
-    </span>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav">
-        <li className="nav-item active">
-          <a className="nav-link" href="https://pdfhost.io/v/ARO2cS4Y3_FernandoASoria" target="_blank" rel="noopener noreferrer"> Download my CV </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  )
+    <Navbar bg="light" expand="lg" fixed="top">
+      <Container fluid>
+        <Navbar.Brand href="#home">
+        <img className='d-inline-block align-top' src={require("./assets/logo.png")} style={
+          {height: "30px", width: "30px"}
+        } alt="logo" />
+        {'  '}Fernando Soria
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="ms-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Nav.Link href="#about"> About me</Nav.Link>
+            <Nav.Link href="#proyectos"> Projects</Nav.Link>
+            <NavDropdown title="Contacto" id="navbarScrollingDropdown" align="end">
+              <NavDropdown.Item href="https://www.linkedin.com/in/fernandosoria1t">
+                <img className='img-fluid' src={require("./assets/linkedin_icon.png")} style={estilo} alt='liicon' />
+                </NavDropdown.Item>
+              <NavDropdown.Item href="https://www.github.com/fersoria001">
+              <img className='img-fluid' src={require("./assets/github_icon.png")} style={estilo} alt='ghicon' />
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action5">
+                Download my CV
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#footer">
+                Contacto
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default BarraDeNavegacion
+export default BarraDeNavegacion;
