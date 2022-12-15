@@ -17,11 +17,13 @@ function App() {
           <Proyectos />
           </section>
           <section id="about">
+          <div className='p-4 mt-4'>
           <h2 className='text-center'> My TechStack</h2>
           <FilaDeCartas techs={techs}/> {/*ya viene con un row --1*/}
           <FilaDeCartas techs={techs_uno}/> {/*ya viene con un row --2*/}
           <Estudios />  {/*ya viene con un row */}
           <SobreMi></SobreMi>
+          </div>
           </section>
           <section id="footer">
           <Footer />
