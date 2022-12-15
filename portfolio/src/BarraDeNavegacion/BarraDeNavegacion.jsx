@@ -13,8 +13,8 @@ function BarraDeNavegacion() {
     <Navbar bg="light" expand="lg" fixed="top">
       <Container fluid>
         <Navbar.Brand href="#home">
-        <img className='d-inline-block align-top' src={require("./assets/logo.png")} style={
-          {height: "30px", width: "30px"}
+        <img className='d-inline-block rounded-circle align-top' src={require("./assets/firma_icon.png")} style={
+          {height: "30px", width: "30px", background: "yellow"}
         } alt="logo" />
         {'  '}Fernando Soria
         </Navbar.Brand>
