@@ -35,7 +35,7 @@ function BarraDeNavegacion() {
               <img className='img-fluid' src={require("./assets/github_icon.png")} style={estilo} alt='ghicon' />
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="https://pdfhost.io/v/cMKh4HS0K_FernandoASoria">
                 Download my CV
               </NavDropdown.Item>
               <NavDropdown.Item href="#footer">
