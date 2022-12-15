@@ -30,9 +30,11 @@ function BarraDeNavegacion() {
             <NavDropdown title="Contacto" id="navbarScrollingDropdown" align="end">
               <NavDropdown.Item href="https://www.linkedin.com/in/fernandosoria1t">
                 <img className='img-fluid' src={require("./assets/linkedin_icon.png")} style={estilo} alt='liicon' />
+                Linkedin
                 </NavDropdown.Item>
               <NavDropdown.Item href="https://www.github.com/fersoria001">
               <img className='img-fluid' src={require("./assets/github_icon.png")} style={estilo} alt='ghicon' />
+              GitHub
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="https://pdfhost.io/v/cMKh4HS0K_FernandoASoria">
