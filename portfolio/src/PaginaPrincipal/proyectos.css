@@ -86,14 +86,14 @@ p
         border-radius: 5%;
         }
     .carousel .carousel-item {
-            height: 105vh;
+            height: 100vh;
           }
     .carousel-item img {
             position: absolute;
             object-fit: cover;
             top: 0;
             left: 0;
-            height: 105vh;
-            max-height: 105vh;
+            height: 100vh;
+            max-height: 100vh;
         }
     }
