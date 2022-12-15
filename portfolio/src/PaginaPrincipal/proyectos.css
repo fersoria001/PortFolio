@@ -61,14 +61,14 @@ p
         }
 
     .carousel .carousel-item {
-            height: 100vh;
+            height: 90vh;
           }
     .carousel-item img {
             position: absolute;
             object-fit: cover;
             top: 0;
             left: 0;
-            height: 100vh;
+            height: 90vh;
         }
    }
 
@@ -84,16 +84,5 @@ p
         bottom: 25%;
         color:#000000;
         border-radius: 5%;
-        }
-    .carousel .carousel-item {
-            height: 100vh;
-          }
-    .carousel-item img {
-            position: absolute;
-            object-fit: cover;
-            top: 0;
-            left: 0;
-            height: 100vh;
-            max-height: 100vh;
         }
     }
