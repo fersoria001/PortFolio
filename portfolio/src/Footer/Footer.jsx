@@ -12,7 +12,7 @@ const Footer = () => {
   <div className='row'>
     <div className='col md-6 d-flex justify-content-center m-2'>
     <img src={require("./assets/icon_firma.png")} style={{width: "24px", height: "24px"}} alt='..'></img>
-    You can contact me trough the social media or with the next form.
+    You can contact me trough the social media.
     </div>
   </div>
  <div className='container' id='container-formulario'>

@@ -37,7 +37,7 @@ function BarraDeNavegacion() {
               GitHub
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="https://pdfhost.io/v/cMKh4HS0K_FernandoASoria">
+              <NavDropdown.Item href="https://pdfhost.io/v/cMKh4HS0K_FernandoASoria ">
                 Download my CV
               </NavDropdown.Item>
               <NavDropdown.Item href="#footer">
