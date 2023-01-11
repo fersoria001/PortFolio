@@ -21,7 +21,8 @@ const proyecto_dos = {
 const proyecto_tres = {
   titulo: "e-commerce",
   imagen: require("./assets/e-commerce.jpg"),
-  descripcion: "E-Commerce FakeApi con JsonServer"
+  descripcion: "E-Commerce FakeApi con JsonServer",
+  repo: "https://github.com/fersoria001/Emerald-Blue",
 }
 
 
@@ -58,6 +59,7 @@ const Proyectos = () => {
         <h5>{proyecto_tres.titulo}</h5>
         <p>{proyecto_tres.descripcion}</p>
         <p> coming soon..</p>
+        <a className="btn btn-primary" href={proyecto_tres.repo} role="button" target="_blank" rel="noopener noreferrer"> Dev Repository</a>
       </div>
     </div>
   </div>
