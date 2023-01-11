@@ -1,8 +1,15 @@
 import React from 'react'
 
 const Mensaje = () => {
+  function handleClick(e)
+  {
+    e.preventDefault(e);
+    alert("Ups olvide pagar la base de datos, mejor comunicate a mi whatsApp"
+    +"+2944781823" +
+    " o a mi correo electronico fernandosoria1379@gmail.com");
+  }
   return (
-<form>
+<form onSubmit={handleClick}>
   <div className="form-group mb-2">
     <input type="text" className="form-control" id='nombre' placeholder="Name" />
   </div>
