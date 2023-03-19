@@ -14,7 +14,7 @@ function App() {
           <section id="home">
           <BarraDeNavegacion />
           </section>
-          <section id="proyectos">
+          <section id="carouselbanner">
           <Proyectos />
           </section>
           <section id="about">
@@ -24,7 +24,9 @@ function App() {
           <FilaDeCartas techs={techs_uno}/> {/*ya viene con un row --2*/}
           <Estudios />  {/*ya viene con un row */}
           <SobreMi></SobreMi>
+          <section id="projects">
           <Repositorios />
+          </section>
           </div>
           </section>
           <section id="footer">

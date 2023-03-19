@@ -26,7 +26,7 @@ function BarraDeNavegacion() {
             navbarScroll
           >
             <Nav.Link href="#about"> About me</Nav.Link>
-            <Nav.Link href="#proyectos"> Projects</Nav.Link>
+            <Nav.Link href="#projects"> Projects</Nav.Link>
             <NavDropdown title="Contacto" id="navbarScrollingDropdown" align="end">
               <NavDropdown.Item href="https://www.linkedin.com/in/fernandosoria1t">
                 <img className='img-fluid' src={require("./assets/linkedin_icon.png")} style={estilo} alt='liicon' />
@@ -41,7 +41,7 @@ function BarraDeNavegacion() {
                 Download my CV
               </NavDropdown.Item>
               <NavDropdown.Item href="#footer">
-                Contacto
+                Contact
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
