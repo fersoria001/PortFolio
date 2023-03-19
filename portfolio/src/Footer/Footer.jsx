@@ -1,6 +1,5 @@
 import React from 'react'
 import Iconos from './Iconos'
-import Mensaje from './Mensaje'
 import "./footer.css"
 
 const Footer = () => {
