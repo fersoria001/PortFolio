@@ -6,6 +6,7 @@ import Proyectos from './PaginaPrincipal/Proyectos';
 import { techs, techs_uno } from './PaginaPrincipal/distribuidor';
 import Footer from './Footer/Footer';
 import { SobreMi } from './PaginaPrincipal/SobreMi';
+import Repositorios from './PaginaPrincipal/Repositorios'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <FilaDeCartas techs={techs_uno}/> {/*ya viene con un row --2*/}
           <Estudios />  {/*ya viene con un row */}
           <SobreMi></SobreMi>
+          <Repositorios />
           </div>
           </section>
           <section id="footer">
