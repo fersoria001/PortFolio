@@ -20,7 +20,7 @@ const Estudios = () => {
         <h2 className='py-2 text-center'> My Education </h2>
         <div className='row'>
             <div className='col'>
-            <div className="card text-center">
+            <div className="card text-center MyCard">
                 <img className="card-img-top" src={rionegro.imagen} alt="logo" style={{width: "40px", height: "50px"}} />
                  <div className="card-body">
                     <h5 className='card-title'>{rionegro.institucion}</h5>
@@ -29,7 +29,7 @@ const Estudios = () => {
             </div>
             </div>
             <div className='col'>
-            <div className="card  text-center">
+            <div className="card  text-center MyCard">
                 <img className="card-img-top" src={oracle.imagen} alt="logo" style={{width: "40px", height: "50px"}} />
                  <div className="card-body">
                     <h5 className='card-title'>{oracle.institucion}</h5>

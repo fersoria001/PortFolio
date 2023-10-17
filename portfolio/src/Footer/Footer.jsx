@@ -20,7 +20,7 @@ const Footer = () => {
         Copyright © 2022, Fernando Agustin Soria.
         <br />
         <br />
-        Fernando Soria , Full-Stack Java Developer.
+        Fernando Soria , Full-Stack Web Developer.
       </div>
     </div>
   )

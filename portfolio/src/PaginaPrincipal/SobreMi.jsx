@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/sobre_mi.css'; // Import the CSS file
+import React from "react";
+import "../styles/sobre_mi.css"; // Import the CSS file
 
 export const SobreMi = () => {
   return (
@@ -8,8 +8,19 @@ export const SobreMi = () => {
       <div className="row justify-content-center p-5">
         <div className="col-md-6">
           <p className="text-description">
-            Hi! I'm Fer. I'm a Computer 
-            Engineering student at UNRN with a passion for programming. I'm also a certified FullStack Java Web Developer with expertise in MySQL. In my free time, you can find me at the gym or trekking in the beautiful mountains of San Carlos de Bariloche.
+            Hello there! I'm Fernando. I'm a Computer Engineering student at
+            UNRN with a passion for almost all software and hardware-related
+            topics. I'm also certified by the Alura Oracle-Next program, it is a
+            full-stack curriculum but I do have a preference for working in the
+            back-end. I have work experience in the field of web programming,
+            scrum leadership and I love to work in teams, now I'm working as a
+            freelancer, and doing some internships that let me use my knowledge
+            and learn new things. My beliefs about software development are not
+            to tie myself to any technology, but to use the best tool for the
+            job applying computer science concepts. I'm always looking for new
+            challenges and job opportunities to grow as a professional. In my
+            free time, you can find me at the gym or trekking in San Carlos de
+            Bariloche.
           </p>
         </div>
       </div>
