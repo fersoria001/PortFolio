@@ -1,0 +1,39 @@
+/* src/components/DevToArticles.css */
+.DevToArticles {
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .DevToArticles h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .DevToArticles ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .DevToArticles li {
+    margin-bottom: 10px;
+  }
+  
+  .DevToArticles a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .DevToArticles a:hover {
+    text-decoration: underline;
+  }
+  

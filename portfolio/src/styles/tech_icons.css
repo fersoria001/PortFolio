@@ -1,0 +1,42 @@
+/* src/components/TechIcons.css */
+.TechIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .TechIcon {
+    text-align: center;
+    flex: 1; /* Equal width for each item */
+  }
+  
+  .TechIcon img {
+    width: 60px; /* Decrease icon size for mobile */
+    height: 60px;
+  }
+  
+  .TechIcon p {
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 14px; /* Decrease font size for mobile */
+  }
+  
+  /* Add responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .TechIcons {
+      flex-direction: row; /* Maintain items side by side */
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  
+    .TechIcon img {
+      width: 40px; /* Further decrease icon size for smaller screens */
+      height: 40px;
+    }
+  
+    .TechIcon p {
+      font-size: 12px; /* Further decrease font size for smaller screens */
+    }
+  }
+  

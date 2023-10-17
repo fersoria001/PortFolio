@@ -1,39 +1,38 @@
-import './App.css';
-import BarraDeNavegacion from './BarraDeNavegacion/BarraDeNavegacion';
-import Estudios from './PaginaPrincipal/Estudios';
-import FilaDeCartas from './PaginaPrincipal/FilaDeCartas';
-import Proyectos from './PaginaPrincipal/Proyectos';
-import { techs, techs_uno } from './PaginaPrincipal/distribuidor';
-import Footer from './Footer/Footer';
-import { SobreMi } from './PaginaPrincipal/SobreMi';
-import Repositorios from './PaginaPrincipal/Repositorios'
+import "./App.css";
+import BarraDeNavegacion from "./BarraDeNavegacion/BarraDeNavegacion";
+import Estudios from "./PaginaPrincipal/Estudios";
+import Proyectos from "./PaginaPrincipal/Proyectos";
+import { techs } from "./PaginaPrincipal/tech_icons_data";
+import Footer from "./Footer/Footer";
+import { SobreMi } from "./PaginaPrincipal/SobreMi";
+import Repositorios from "./PaginaPrincipal/Repositorios";
+import DevToArticles from "./PaginaPrincipal/DevToArticles";
+import TechIcons from "./PaginaPrincipal/TechIcons";
 
 function App() {
   return (
-  <div>
-          <section id="home">
-          <BarraDeNavegacion />
-          </section>
-          <section id="carouselbanner">
-          <Proyectos />
-          </section>
-          <section id="about">
-          <div className='p-4 mt-4'>
-          <h2 className='text-center'> My TechStack</h2>
-          <FilaDeCartas techs={techs}/> {/*ya viene con un row --1*/}
-          <FilaDeCartas techs={techs_uno}/> {/*ya viene con un row --2*/}
-          <Estudios />  {/*ya viene con un row */}
-          <SobreMi></SobreMi>
-          <section id="projects">
+    <div>
+      <section id="home">
+        <BarraDeNavegacion />
+      </section>
+      <section id="carouselbanner">
+        <Proyectos />
+      </section>
+      <section id="about">
+        <h2 className="text-center"> My TechStack</h2>
+        <TechIcons techList={techs} />
+        <Estudios /> {/*ya viene con un row */}
+        <DevToArticles />
+        <SobreMi></SobreMi>
+        <section id="projects">
           <Repositorios />
-          </section>
-          </div>
-          </section>
-          <section id="footer">
-          <Footer />
-          </section>
-      </div>
-    );
+        </section>
+      </section>
+      <section id="footer">
+        <Footer />
+      </section>
+    </div>
+  );
 }
 
 export default App;

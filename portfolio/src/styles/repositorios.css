@@ -1,0 +1,93 @@
+/* Repositorios.css */
+.owner-avatar {
+    max-width: 100px;
+    border: 2px solid #333;
+    border-radius: 50%; /* Add border-radius for a circular shape */
+}
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile-section {
+    flex-basis: calc(2 * 100% / 12);
+    padding: 10px;
+  }
+
+  .list-section {
+    flex-basis: calc(10 * 100% / 12);
+    padding: 0 20px;
+  }
+
+  /* Custom container styles */
+  .repositorios-container {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+  }
+
+  /* Center the component on small screens */
+  @media (max-width: 768px) {
+    .repositorios-container {
+      margin: 0;
+      background-color: #f8f8f8;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      padding: 0px 0px;
+    }
+    .profile-container {
+        display: block; 
+      }
+  }
+
+  /* Custom styles for the repository list */
+  .repository-list {
+    background-color: #ffffff;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin-top: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  /* Custom styles for each repository item */
+  .repository-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+
+  /* Adjust font sizes for better readability */
+  .repository-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .repository-language {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .repository-update {
+    font-size: 16px;
+  }
+
+  .repository-stars {
+    font-size: 16px;
+  }
+
+  .repository-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .github-icon {
+    font-size: 24px;
+    margin-right: 5px;
+  }
