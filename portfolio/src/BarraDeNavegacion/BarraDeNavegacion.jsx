@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-
+import FernandoSoriaCVEng from "./assets/FernandoSoriaCVEng.pdf";
 const estilo = { height: "16px", width: "16px" };
 
 function BarraDeNavegacion() {
@@ -51,7 +51,8 @@ function BarraDeNavegacion() {
                 GitHub
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="https://pdfhost.io/v/cMKh4HS0K_FernandoASoria ">
+        
+              <NavDropdown.Item href={FernandoSoriaCVEng} target="_blank" rel="noopener noreferrer">
                 Download my CV
               </NavDropdown.Item>
               <NavDropdown.Item href="#footer">Contact</NavDropdown.Item>

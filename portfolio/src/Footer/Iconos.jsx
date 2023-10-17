@@ -15,6 +15,8 @@ const Iconos = () => {
         <img className='img-fluid' src={require("./assets/linkedin_icon.png")} style={estilo} alt='liicon' /> </a>
         <a href='https://www.github.com/fersoria001' target="_blank" rel="noopener noreferrer">
         <img className='img-fluid' src={require("./assets/github_icon.png")} style={estilo} alt='ghicon' /></a>
+        <a href='https://www.twitter.com/fersoria001' target="_blank" rel="noopener noreferrer">
+        <img className='img-fluid' src={require("./assets/xitter_icon.jpg")} style={estilo} alt='xicon' /></a>
       </div>
   )
 }

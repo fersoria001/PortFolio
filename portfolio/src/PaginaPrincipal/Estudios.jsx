@@ -3,20 +3,21 @@ import "./estudios.css"
 
 const rionegro = {
     institucion: "UNRN",
-    carrera: "Ingenieria en Computacion",
+    carrera: "Computer Engineering",
     fecha: "2022",
     imagen: require(".//assets/unrnlogo.jpg")
 }
 const oracle = {
     institucion: "OracleNEXT",
-    carrera: "Desarrollador Web FullStack Java",
+    carrera: "FullStack Web Developer",
     fecha: "2022",
     imagen: require(".//assets/alura_logo.png")
 }
 
 const Estudios = () => {
   return (
-    <div className='container-fluid mt-4'>
+    <div className='container-fluid py-5'>
+        <h2 className='py-2 text-center'> My Education </h2>
         <div className='row'>
             <div className='col'>
             <div className="card text-center">

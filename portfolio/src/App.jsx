@@ -11,7 +11,7 @@ import TechIcons from "./PaginaPrincipal/TechIcons";
 
 function App() {
   return (
-    <div>
+    <div classname="App">
       <section id="home">
         <BarraDeNavegacion />
       </section>
@@ -19,10 +19,9 @@ function App() {
         <Proyectos />
       </section>
       <section id="about">
-        <h2 className="text-center"> My TechStack</h2>
+        <DevToArticles />
         <TechIcons techList={techs} />
         <Estudios /> {/*ya viene con un row */}
-        <DevToArticles />
         <SobreMi></SobreMi>
         <section id="projects">
           <Repositorios />
