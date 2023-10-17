@@ -12,15 +12,17 @@ export const SobreMi = () => {
             UNRN with a passion for almost all software and hardware-related
             topics. I'm also certified by the Alura Oracle-Next program, it is a
             full-stack curriculum but I do have a preference for working in the
-            back-end. I have work experience in the field of web programming,
-            scrum leadership and I love to work in teams, now I'm working as a
-            freelancer, and doing some internships that let me use my knowledge
-            and learn new things. My beliefs about software development are not
-            to tie myself to any technology, but to use the best tool for the
-            job applying computer science concepts. I'm always looking for new
-            challenges and job opportunities to grow as a professional. In my
-            free time, you can find me at the gym or trekking in San Carlos de
-            Bariloche.
+            back-end. I have work experience in web programming and scrum
+            leadership. I love to work in teams, and I am currently working as a
+            freelancer and doing an internship at an enterprise that is
+            challenging me with data structures, algorithm analysis, design
+            patterns, and software architecture but also with math and
+            physics-related topics. My beliefs about software development are
+            not to tie myself to any technology, but to use the best tool for
+            the job applying computer science concepts. I'm always looking for
+            new challenges and job opportunities to grow as a professional. In
+            my free time, you can find me at the gym or trekking in San Carlos
+            de Bariloche.
           </p>
         </div>
       </div>
