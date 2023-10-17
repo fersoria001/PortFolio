@@ -4,9 +4,15 @@ const proyectos = [
   {
     titulo: "En-Conexion",
     imagen: require("./assets/en-conexion.png"),
-    descripcion: `Back-end of a health social network with payment gateway, messaging, full-text search, geolocation, cybersecurity, etc.`,
+    descripcion: `Back-end of a health social network with payment gateway, messaging, full-text search, geolocation, security, etc.`,
     repo: "private",
     demo: "http://dev.en-conexion.com/",
+  },
+  {
+    titulo: "Java SpringBoot E-Commerce API",
+    imagen: require("./assets/e-commerce-api.png"),
+    descripcion: "Web application based on websockets for an online store with a chatbot that communicates with OpenAI.",
+    repo: "https://github.com/fersoria001/TiendaOpenAI-Api"
   },
   {
     titulo: "Hangman Project",
@@ -28,12 +34,7 @@ const proyectos = [
     descripcion: "E-commerce with FakeApi using JsonServer.",
     repo: "https://github.com/fersoria001/Emerald-Blue",
   },
-  {
-    titulo: "Java SpringBoot E-Commerce API",
-    imagen: require("./assets/e-commerce-api.png"),
-    descripcion: "Web application based on websockets for an online store with a chatbot that communicates with OpenAI.",
-    repo: "https://github.com/fersoria001/TiendaOpenAI-Api"
-  }
+
 ];
 
 const Proyectos = () => {
@@ -56,10 +57,10 @@ const Proyectos = () => {
       <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
         <img src={proyecto.imagen} className="d-block w-100" alt={proyecto.titulo} />
         <div className="carousel-caption d-block">
-          <h5>{proyecto.titulo}</h5>
-          <p>{proyecto.descripcion}</p>
+          <h5 className="text-white" >{proyecto.titulo}</h5>
+          <p className="text-white">{proyecto.descripcion}</p>
           {proyecto.repo && (
-            <a className="btn btn-primary" href={proyecto.repo} role="button" target="_blank" rel="noopener noreferrer">
+            <a className="btn btn-primary m-2" href={proyecto.repo} role="button" target="_blank" rel="noopener noreferrer">
               Repository
             </a>
           )}
